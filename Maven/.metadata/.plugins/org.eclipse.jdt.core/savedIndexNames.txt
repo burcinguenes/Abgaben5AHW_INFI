@@ -1,0 +1,7 @@
+INDEX VERSION 1.130+C:\Users\guene\Documents\SCHULE\5te Klasse\INFI-DB\Maven\.metadata\.plugins\org.eclipse.jdt.core
+1599636259.index
+3707124005.index
+3033721518.index
+1802510051.index
+352572219.index
+4020555766.index

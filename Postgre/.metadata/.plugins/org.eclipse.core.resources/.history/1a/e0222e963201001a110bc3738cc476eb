@@ -1,0 +1,75 @@
+package GUI;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.EventQueue;
+import java.awt.Font;
+import java.sql.Connection;
+import java.util.ArrayList;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.border.EmptyBorder;
+import javax.swing.table.DefaultTableModel;
+
+import DB.Artikel;
+
+public class BestellungFrame extends JFrame {
+	static Connection conn;
+
+	static ArrayList<Artikel> al;
+	static JDBC_main db;
+	private JTable table;
+	private DefaultTableModel model;
+	private JPanel contentPane;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					BestellungFrame frame = new BestellungFrame();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public BestellungFrame() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		contentPane.setLayout(new BorderLayout(0, 0));
+		setContentPane(contentPane);
+		
+		JLabel lblArtikelauswahl = new JLabel("Bestellungen anzeigen");
+		lblArtikelauswahl.setFont(new Font("Tahoma", Font.BOLD, 13));
+		lblArtikelauswahl.setBounds(151, 10, 105, 31);
+		contentPane.add(lblArtikelauswahl);
+		
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setBounds(10, 49, 324, 202);
+		contentPane.add(scrollPane);
+		
+		table = new JTable();
+		scrollPane.setViewportView(table);
+		table.setBackground(Color.PINK);
+		
+		Object [] column = {"ID","Kunden ID","Rechnungsadresse","Lieferadresse"};
+		model = new DefaultTableModel();
+		model.setColumnIdentifiers(column);
+		table.setModel(model);
+	}
+
+}

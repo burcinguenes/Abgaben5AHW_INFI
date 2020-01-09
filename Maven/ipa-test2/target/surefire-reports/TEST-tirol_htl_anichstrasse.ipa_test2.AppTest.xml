@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tirol_htl_anichstrasse.ipa_test2.AppTest" time="0.032" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\guene\Documents\SCHULE\5te Klasse\INFI-DB\Maven\ipa-test2\target\test-classes;C:\Users\guene\Documents\SCHULE\5te Klasse\INFI-DB\Maven\ipa-test2\target\classes;C:\Users\guene\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\guene\.m2\repository\org\postgresql\postgresql\42.2.8\postgresql-42.2.8.jar;C:\Users\guene\.m2\repository\org\eclipse\persistence\eclipselink\2.7.5\eclipselink-2.7.5.jar;C:\Users\guene\.m2\repository\org\eclipse\persistence\jakarta.persistence\2.2.3\jakarta.persistence-2.2.3.jar;C:\Users\guene\.m2\repository\org\eclipse\persistence\commonj.sdo\2.1.1\commonj.sdo-2.1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AT"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre-9\bin"/>
+    <property name="sun.java.command" value="C:\Users\guene\AppData\Local\Temp\surefire3340780647096343243\surefirebooter8013480696940826478.jar C:\Users\guene\AppData\Local\Temp\surefire3340780647096343243 2019-11-28T09-40-06_556-jvmRun1 surefire2099955719560986132tmp surefire_013454724927169277515tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\guene\Documents\SCHULE\5te Klasse\INFI-DB\Maven\ipa-test2\target\test-classes;C:\Users\guene\Documents\SCHULE\5te Klasse\INFI-DB\Maven\ipa-test2\target\classes;C:\Users\guene\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\guene\.m2\repository\org\postgresql\postgresql\42.2.8\postgresql-42.2.8.jar;C:\Users\guene\.m2\repository\org\eclipse\persistence\eclipselink\2.7.5\eclipselink-2.7.5.jar;C:\Users\guene\.m2\repository\org\eclipse\persistence\jakarta.persistence\2.2.3\jakarta.persistence-2.2.3.jar;C:\Users\guene\.m2\repository\org\eclipse\persistence\commonj.sdo\2.1.1\commonj.sdo-2.1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\guene"/>
+    <property name="user.language" value="de"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre-9"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\guene\Documents\SCHULE\5te Klasse\INFI-DB\Maven\ipa-test2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\guene\AppData\Local\Temp\surefire3340780647096343243\surefirebooter8013480696940826478.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="9+181"/>
+    <property name="user.name" value="guene"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\guene\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\guene\AppData\Local\Temp\"/>
+    <property name="java.version" value="9"/>
+    <property name="user.dir" value="C:\Users\guene\Documents\SCHULE\5te Klasse\INFI-DB\Maven\ipa-test2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre-9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Rockwell Software\RSCommon;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk-9\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\guene\AppData\Local\Microsoft\WindowsApps;C:\Users\guene\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Users\guene\AppData\Local\Programs\Python\Python37\;C:\Users\guene\AppData\Local\Programs\Python\Python37\Scripts\;C:\Program Files\PostgreSQL\11\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld;C:\Users\guene\AppData\Local\Programs\Python\Python37\python.exe;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="9+181"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="53.0"/>
+  </properties>
+  <testcase name="testApp" classname="tirol_htl_anichstrasse.ipa_test2.AppTest" time="0.003"/>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="DB.Artikel"/>
+    <fullyQualifiedTypeName name="DB.Bestellung_Artikel"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="net.proteanit.sql.DbUtils"/>
+    <fullyQualifiedTypeName name="javax.swing.table.DefaultTableModel"/>
+    <fullyQualifiedTypeName name="javax.swing.table.TableModel"/>
+    <fullyQualifiedTypeName name="DB.Kunde"/>
+    <fullyQualifiedTypeName name="DB.Adresse"/>
+    <fullyQualifiedTypeName name="DB.Bestellung"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,5 @@
+INDEX VERSION 1.130+C:\Users\guene\Documents\SCHULE\5te Klasse\INFI-DB\Postgre\.metadata\.plugins\org.eclipse.jdt.core
+4020555766.index
+1802510051.index
+3707124005.index
+878720587.index

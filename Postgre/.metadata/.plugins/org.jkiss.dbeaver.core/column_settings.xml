@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="NodeList/DBNProjectDatabases/DBNBookmarkFolder/DBNDiagramFolder/DBNResource">
+		<column name="Name" visible="true" order="0" width="100"/>
+		<column name="Pfad" visible="true" order="1" width="100"/>
+		<column name="Letzte Änderung" visible="true" order="2" width="123"/>
+		<column name="Größe" visible="true" order="3" width="100"/>
+	</item>
+	<item id="NodeList/DBNResource">
+		<column name="Name" visible="true" order="0" width="100"/>
+		<column name="Pfad" visible="true" order="1" width="100"/>
+		<column name="Größe" visible="true" order="2" width="100"/>
+		<column name="Letzte Änderung" visible="true" order="3" width="123"/>
+	</item>
+	<item id="NodeList/DataSourceDescriptor">
+		<column name="Name" visible="true" order="0" width="100"/>
+		<column name="Beschreibung" visible="true" order="1" width="103"/>
+		<column name="Treibertyp" visible="true" order="2" width="100"/>
+	</item>
+	<item id="projectExplorer">
+		<column name="Name" visible="true" order="0" width="164"/>
+		<column name="DataSource" visible="true" order="1" width="115"/>
+	</item>
+</items>
