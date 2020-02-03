@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm    
+                        http://java.sun.com/xml/ns/persistence/orm_1_0.xsd"
+                        version="1.0">
+    <description> XML Mapping file</description>
+    
+    <entity class="dbp_bestellung01">
+    	<table name="adresse"/>
+    	<attributes>
+    		<id name="Adresse_ID">
+    			<generated-value strategy="TABLE"/>
+    		</id>
+    		<basic name="Stadt">
+    			<column name="" length="" />
+    		</basic>
+    		<basic name="PLZ">
+    			<column name="" length="" />
+    		</basic>
+    		<basic name="HausNr">
+    			<column name="" length="" />
+    		</basic>
+    	</attributes>
+    </entity>
+</entity-mappings>

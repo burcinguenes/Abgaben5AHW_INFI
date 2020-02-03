@@ -1,6 +1,14 @@
 package DB;
+
+import javax.persistence.*;
+
+@Entity
 public class Kunde {
+	
+	@Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     int Kunden_ID;
+	
     String TitelV;
     String Vorname;
    	String Nachname;
@@ -8,12 +16,14 @@ public class Kunde {
 
     public Kunde(String tV, String vname, String nname, String tN) 
     {
+		super();
     	this.TitelV = tV;
     	this.Vorname = vname;
     	this.Nachname = nname;
     	this.TitelN = tN;
     }
 
+    public Kunde() {}
  
     public String toString() {
         return this.Kunden_ID + " " + this.TitelV+ " " +this.Vorname+ " " +this.Nachname+ " " +this.TitelN;

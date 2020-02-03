@@ -32,7 +32,7 @@ public class GUI {
 	private JTextField textfield_plz;
 	private JTextField textfield_hausnr;
 	
-	static JDBC_main db;
+	static Main db;
 	private JButton btnDelete;
 	private JTextField textfield_id;
 	private JLabel lblId;
@@ -56,7 +56,7 @@ public class GUI {
 	public static void main(String[] args) {
 		
 		try {
-			db = new JDBC_main();
+			db = new Main();
 		}catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {

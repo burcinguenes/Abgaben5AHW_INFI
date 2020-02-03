@@ -33,7 +33,7 @@ public class ArtikelFrame extends JFrame {
 	private JPanel contentPane;
 
 	static ArrayList<Artikel> al;
-	static JDBC_main db;
+	static Main db;
 	private JTable table;
 	private DefaultTableModel model;
 
